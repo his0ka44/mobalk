@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+
+        android:id="@+id/editTextUserName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="470dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="login"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/guestLoginButton"
+        android:layout_width="472dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="guestLogin"
+        android:text="@string/guest_login" />
+
+    <Button
+        android:id="@+id/googleSignInButton"
+        android:layout_width="475dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="loginWithGoogle"
+        android:text="@string/log_in_with_google" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="479dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:onClick="register"
+        android:text="@string/registration" />
+
+    <TextView
+        android:id="@+id/nightMode"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:hint="@string/night_mode"
+        android:inputType="text" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/bt_switch"
+        android:layout_width="64dp"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

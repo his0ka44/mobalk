@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/trainTitle"
+            android:id="@+id/trainImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/trainImage"
+            app:layout_constraintBottom_toTopOf="@id/routeTitle"
+            android:id="@+id/trainTitle"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/train_name"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/trainTitle"
+            app:layout_constraintBottom_toTopOf="@id/dateTitle"
+            android:id="@+id/routeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:text="@string/route"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/routeTitle"
+            app:layout_constraintBottom_toTopOf="@id/priceTitle"
+            android:id="@+id/dateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/date"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@id/dateTitle"
+            app:layout_constraintBottom_toTopOf="@id/tradeTitle"
+            android:textSize="20sp"
+            android:id="@+id/priceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/price"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_margin="10dp"
+           />
+
+        <Button
+            app:layout_constraintTop_toBottomOf="@id/priceTitle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/tradeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/priceTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:text="@string/book"
+            android:layout_margin="10dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+
+

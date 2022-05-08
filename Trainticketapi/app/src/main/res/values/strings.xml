@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Train ticket app</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="user_name">Username</string>
+    <string name="email_address">E-mail address</string>
+    <string name="password_again">Password again</string>
+    <string name="undo">Undo</string>
+    <string name="cancel">cancel</string>
+    <string name="phone_number">phone number</string>
+    <string name="address">Postal address</string>
+    <string name="tax_number">Tax number</string>
+    <string name="log_in_with_google">Log in with Google</string>
+    <string name="guest_login">Guest login</string>
+    <string name="train_name">Train name</string>
+    <string name="route">route</string>
+    <string name="date">date</string>
+    <string name="price">price</string>
+    <string name="book">book</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="log_out">Log out</string>
+    <string name="profile_name">Profile name:</string>
+    <string name="active_tickets">Active tickets:</string>
+    <string name="night_mode">Nightmode</string>
+    <string-array name="phone_modes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="train_names">
+        <item>SzeBud</item>
+        <item>BudSze</item>
+        <item>BudBéc</item>
+        <item>BécBud</item>
+        <item>SzeKec</item>
+        <item>KecSze</item>
+        <item>BudDeb</item>
+        <item>DebBud</item>
+        <item>BudPrá</item>
+        <item>PráBud</item>
+    </string-array>
+    <string-array name="train_routes">
+        <item>Szeged-Budapest</item>
+        <item>Budapest-Szeged</item>
+        <item>Budapest-Bécs</item>
+        <item>Bécs-Budapest</item>
+        <item>Szeged-Kecskemét</item>
+        <item>Kecskemét-Szeged</item>
+        <item>Budapest-Debrecen</item>
+        <item>Debrecen-Budapest</item>
+        <item>Budapest-Prága</item>
+        <item>Prága-Budapest</item>
+    </string-array>
+    <string-array name="departure_dates">
+        <item>2022.05.08 10:00</item>
+        <item>2022.05.08 11:00</item>
+        <item>2022.05.08 12:00</item>
+        <item>2022.05.08 13:00</item>
+        <item>2022.05.08 14:00</item>
+        <item>2022.05.08 15:00</item>
+        <item>2022.05.08 16:00</item>
+        <item>2022.05.08 17:00</item>
+        <item>2022.05.08 18:00</item>
+        <item>2022.05.08 19:00</item>
+    </string-array>
+    <string-array name="ticket_prizes">
+        <item>2000 HUF</item>
+        <item>2000 HUF</item>
+        <item>2500 HUF</item>
+        <item>2500 HUF</item>
+        <item>1500 HUF</item>
+        <item>1500 HUF</item>
+        <item>2000 HUF</item>
+        <item>2000 HUF</item>
+        <item>3000 HUF</item>
+        <item>3000 HUF</item>
+    </string-array>
+
+
+    <array name="train_image">
+        <item>@drawable/train3</item>
+        <item>@drawable/train3</item>
+        <item>@drawable/train2</item>
+        <item>@drawable/train2</item>
+        <item>@drawable/train4</item>
+        <item>@drawable/train4</item>
+        <item>@drawable/train5</item>
+        <item>@drawable/train5</item>
+        <item>@drawable/train</item>
+        <item>@drawable/train</item>
+    </array>
+
+</resources>

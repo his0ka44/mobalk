@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "611892369516",
+    "project_id": "trainticketapi-466ac",
+    "storage_bucket": "trainticketapi-466ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611892369516:android:7dde51f8056376cb51e049",
+        "android_client_info": {
+          "package_name": "com.example.trainticketapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611892369516-jct0gbevp76rp84la70vl9lqvf4ule4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trainticketapi",
+            "certificate_hash": "88cfb5640715cbb48444a96c47c5be45b8e249e4"
+          }
+        },
+        {
+          "client_id": "611892369516-et3sblhsvp253vp66sv9aspm1ig401qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiR_V2B5PLdzG73lSzMe9c6RDUvwm0rZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611892369516-et3sblhsvp253vp66sv9aspm1ig401qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
